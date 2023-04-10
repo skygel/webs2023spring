@@ -5,67 +5,87 @@
         <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@800&family=Unbounded:wght@200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed&display=swap" rel="stylesheet">
     </head>
     <body>
         <nav class="navbar">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Profolio</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact Me</a></li>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#portfolio">PROJECTS</a></li>
+                <li><a href="#services">SKILLS</a></li>
+                <li><a href="#contact">CONTACT ME</a></li>
             </ul>
         </nav>
 
         <section id="home">
             <div class="main">
-                <h1 class="headings">I AM <br> SKYLAR GELNETT</h1>
-                <button class="btn">
-                    Hire me
-                </button>
+                <h1 class="name">SKYLAR GELNETT</h1>
             </div>
         </section>
 
         <section id="about">
             <div id="pic">
                 <h1 class="headings">ABOUT ME</h1>
-                <img src="img3.jpg" alt="">
+                <img src="me2.jpg" alt="">
                 <div id="intro">
                     <h2>SKYLAR GELNETT</h2>
-                    <p>dfjbsjbf sdjfbosjbf fsojdbfsj siefnos sfdoivo dvoubo vdsoudvbods dvsubvodub vdbvo sdbojbs</p>
+                    <p>Hi! Welcome to my portfolio website. This is a hub for all of my projects and experience. 
+                        My name is Skylar Gelnett, and I am currently a student at the University of Pittsburgh. 
+                        I am a Junior studying Media and Professional Communications on the Digital Media track, I am passionate about exploring the vast 
+                        and ever-changing landscape of media and communication. Through my coursework, I have developed a strong 
+                        foundation in various forms of media, including social media, journalism, and advertising,
+                        and have honed my skills in writing, research, and critical thinking. I am also constantly
+                        seeking opportunities to apply my knowledge and gain hands-on experience in the field. With
+                        my strong work ethic, attention to detail, and enthusiasm for learning, I am confident 
+                        that I have the skills and drive to excel in any media-related role. Through my coursework I have developed many projects that showcase my wide variety of skills.
+                    </p>
                 </div>
             </div>
         </section>
 
         <section id="portfolio">
-            <h1 class="headings">PORTFOLIO</h1>
+            <h1 class="headings">PROJECTS</h1>
             <div class="gallery">
-                <img src="Portfolio/img1.jpg" alt="">
-                <img src="Portfolio/img2.jpg" alt="">
-                <img src="Portfolio/img3.jpg" alt="">
-                <img src="Portfolio/img4.jpg" alt="">
-                <img src="Portfolio/img5.jpg" alt="">
-                <img src="Portfolio/img6.jpg" alt="">
-
+                <img src="vegwebsitepreview.png" alt="">
+                <img src="instapreview.png" alt="">
+                <img src="photoshoppreview.png" alt="">
+                <img src="audiopreview.png" alt="">
             </div>
         </section>
 
         <section id="services">
-            <h1 class="headings">SERVICES</h1>
-            <div class="row"></div>
+            <h1 class="headings">SKILLS</h1>
+            <div class="row">
                 <div class="box">
-                    <h1 class="headings">Website Design</h1>
-                    <p>sfdjbsjdf odfbosdb adjfbowjebfo dufboefsb fubweo dsfoes fesdosfid</p>
+                    <h1 class="subheading">Website Design</h1>
+                    <p>Through my coursework and personal projects, I have gained a foundational understanding of web development principles and the ability to create and style basic web pages. While I am still developing my skills in this area. I am eager to continue building upon my knowledge and tackling more complex coding challenges in the future.</p>
                 </div>
                 <div class="box">
-                    <h1 class="headings">Title<br></h1>
-                    <p>sfdjbsjdf odfbosdb adjfbowjebfo dufboefsb fubweo dsfoes fesdosfid</p>
+                    <h1 class="subheading">Social Media<br></h1>
+                    <p>I have developed a deep understanding of various social media platforms through my personal use. My interest in staying up-to-date with the latest trends has allowed me to identify emerging patterns and anticipate new trends. I am always eager to learn and develop new skills, particularly in social media management and content creation.</p>
                 </div>
                 <div class="box">
-                    <h1 class="headings">Title 2</h1>
-                    <p>sfdjbsjdf odfbosdb adjfbowjebfo dufboefsb fubweo dsfoes fesdosfid</p>
+                    <h1 class="subheading">Editing</h1>
+                    <p>I have gained valuable experience in editing and creating graphics for social media through my coursework. I am proficient in using various graphic design tools and software, and have a keen eye for visual aesthetics. Additionally, I have had the opportunity to dabble in audio and video editing, further enhancing my skill set and creativity.</p>
                 </div>
             </div>
+        </section>
+
+        <section id="contact">
+            <h1 class="headings">CONTACT</h1>
+            <form action="" class="form">
+               <input type="text" name="name" class="imput" placeholder="Enter Your Name"> 
+               <input type="email" name="email" class="input" placeholder="Enter Your Email">
+               <textarea name="msg" id="msg" cols="30" rows="10" 
+               placeholder="Enter Your Message"></textarea>
+               <input type="submit" value="SEND" id="send">
+            </form>
         </section>
     </body>
 </html>
